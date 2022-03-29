@@ -1,0 +1,8 @@
+n = list(input())
+cnt = 0
+for i in n:
+    print(i,end='')
+    cnt += 1
+    if cnt == 10:
+        print(sep='\n')
+        cnt = 0
